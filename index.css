@@ -1,0 +1,9 @@
+.col {
+    width: 250px;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+
+.row row-cols-3 row-cols-md-3 g-4 {
+    margin-left: 25px;
+}
