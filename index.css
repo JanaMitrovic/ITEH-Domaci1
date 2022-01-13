@@ -7,3 +7,24 @@
 .row row-cols-3 row-cols-md-3 g-4 {
     margin-left: 25px;
 }
+
+#naslov-recept {
+    margin-top: 25px;
+    margin-top: 25px;
+}
+
+#kategorija {
+    margin-top: 80px;
+}
+
+#button_izmeni {
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 550px;
+}
+
+#forma-izmena {
+    margin-top: 25px;
+    margin-left: 520px;
+    width: 40%;
+}

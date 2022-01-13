@@ -35,7 +35,7 @@
                         <p class="card-text"><?php echo $recept['kraci_opis']; ?></p>
                     </div>
                     <div class="card-footer text-center">
-                        <button class="btn btn-primary">Otvori</button>
+                        <a href="jedanRecept.php?id=<?php echo $recept['id']; ?>"><button class="btn btn-primary">Otvori</button></a>
                         <button class="btn btn-danger">Obriši</button>
 
                     </div>
