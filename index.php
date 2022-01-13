@@ -12,7 +12,8 @@
 
 <body>
 
-    <h1 class="text-center mt-3">Kolačići.rs</h1>
+    <h1 class="text-center mt-3">Kolačići</h1>
+    <a href="noviRecept.php"><button class="btn btn-success" id="novi-kolacic">Novi kolačić</button></a>
     <div class="row row-cols-3 row-cols-md-3 g-3">
 
         <?php
@@ -40,20 +41,12 @@
 
                     </div>
                     <div class="card-footer">
-                        <!--<small class="text-muted">Last updated 3 mins ago</small>-->
                         <p class="card-text"><small class="text-muted">Dodao:</small> <?php echo $recept['username']; ?></p>
-
                     </div>
                 </div>
             </div>
 
-
         <?php endwhile; ?>
-
-
-
-
-
 
     </div>
 

@@ -18,4 +18,12 @@ class Recept
 
         return $conn->query($upit);
     }
+
+    public function sacuvajNoviRecept($naslov, $kraci_opis, $tekst, $kategorija, $korisnik_id)
+    {
+        $conn = new mysqli("localhost", "root", "", "recepti");
+        $upit = "insert into recept values (NULL, '$naslov', '$kraci_opis', '$tekst', '$kategorija', '$korisnik_id')";
+
+        return $conn->query($upit);
+    }
 }
