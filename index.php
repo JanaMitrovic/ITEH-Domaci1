@@ -37,7 +37,7 @@
                     </div>
                     <div class="card-footer text-center">
                         <a href="jedanRecept.php?id=<?php echo $recept['id']; ?>"><button class="btn btn-primary">Otvori</button></a>
-                        <button class="btn btn-danger">Obriši</button>
+                        <a href="obrisiRecept.php?id=<?php echo $recept['id']; ?>"><button type="button" class="btn btn-danger" name="btn_obrisi_recept" value="<?php echo $recept['id']; ?>">Obriši</button></a>
 
                     </div>
                     <div class="card-footer">
@@ -49,7 +49,6 @@
         <?php endwhile; ?>
 
     </div>
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
