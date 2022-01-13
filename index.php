@@ -13,7 +13,16 @@
 <body>
 
     <h1 class="text-center mt-3">Kolačići</h1>
-    <a href="noviRecept.php"><button class="btn btn-success" id="novi-kolacic">Novi kolačić</button></a>
+    <div class="dugmici">
+        <div id="novi">
+            <a href="noviRecept.php"><button class="btn btn-success" id="novi-kolacic">Novi kolačić</button></a>
+        </div>
+        <div id="sort">
+            <a href="sortipretraga.php"><button class="btn btn-info" id="sort-pretraga">Sort i Pretraga</button></a>
+        </div>
+
+    </div>
+
     <div class="row row-cols-3 row-cols-md-3 g-3">
 
         <?php

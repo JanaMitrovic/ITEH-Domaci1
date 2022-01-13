@@ -34,5 +34,25 @@
     height: 50px;
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-left: 45%;
+    margin-left: 750px;
+
+}
+
+.dugmici {
+    display: flex;
+}
+
+
+#sort-pretraga {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+#pretrazi-polje {
+    margin-left: 460px;
+    margin-top: 15px;
+    width: 400px;
 }
